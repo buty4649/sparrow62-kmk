@@ -9,6 +9,7 @@ ____ = KC.TRANSPARENT
 
 mo_layer2 = KC.MO(layer2)
 kc_paste = KC.LSFT(KC.INS)
+KC.BSLS = KC.INT3
 
 def layer1_keymap(keyboard: KMKKeyboard):
     left = [
