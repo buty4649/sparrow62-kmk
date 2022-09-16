@@ -14,10 +14,10 @@ KC.BSLS = KC.INT3
 def layer1_keymap(keyboard: KMKKeyboard):
     left = [
         [KC.ESC,    KC.GRAVE,   KC.N1,      KC.N2,      KC.N3,      KC.N4,      KC.N5],
-        [           KC.TAB,     KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,     kc_paste],
-        [           KC.LCTL,    KC.A,       KC.S,       KC.D,       KC.F,       KC.G,     KC.CIRC],
-        [           KC.LSHIFT,  KC.Z,       KC.X,       KC.C,       KC.V,       KC.B,     KC.LBRC],
-        [                                               KC.LALT,    mo_layer2,  KC.LGUI,  KC.ENT],
+        [           KC.TAB,     KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,      kc_paste],
+        [           KC.LCTL,    KC.A,       KC.S,       KC.D,       KC.F,       KC.G,      KC.CIRC],
+        [           KC.LSHIFT,  KC.Z,       KC.X,       KC.C,       KC.V,       KC.B,      KC.LBRC],
+        [                                               KC.LALT,    KC.LGUI,    mo_layer2, KC.ENT],
     ]
     right = [
         [           KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,      KC.MINS],
@@ -32,10 +32,10 @@ def layer1_keymap(keyboard: KMKKeyboard):
 def layer2_keymap(keyboard: KMKKeyboard):
     left = [
         [____,      ____,       KC.F1,      KC.F2,      KC.F3,      KC.F4,      KC.F5],
-        [           ____,       ____,       ____,       ____,       ____,       ____,       KC.F6],
-        [           ____,       ____,       ____,       ____,       ____,       ____,       ____],
-        [           KC.LSHIFT,  ____,       ____,       ____,       ____,       ____,       ____],
-        [                                               KC.LALT,    ____,       KC.LGUI,    ____],
+        [           ____,       ____,       ____,       ____,       ____,       ____,    KC.F6],
+        [           ____,       ____,       ____,       ____,       ____,       ____,    ____],
+        [           KC.LSHIFT,  ____,       ____,       ____,       ____,       ____,    ____],
+        [                                               KC.LALT,    KC.LGUI,    ____,    ____],
     ]
     right = [
         [           KC.F7,      KC.F8,      KC.F9,      KC.F10,     KC.F11,     KC.F12],
